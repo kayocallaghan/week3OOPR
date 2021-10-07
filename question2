@@ -1,0 +1,9 @@
+total = 0.00
+    
+for i in range(1, 6):
+    print("Please enter book title {}: ".format(i))
+    booktitle = input()
+    print("Please enter value of {}: ".format(booktitle))
+    price = float(input())
+    total += price
+    print("{0:<10s} {1:6.2f}  {2:10.2f}".format(booktitle, price, total))
